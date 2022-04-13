@@ -45,26 +45,7 @@
 }
 .header-list {
 }
-/* .nav-list {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-} */
-/* .nav-list {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--first-text-color);
-} */
-/* .nav-list:hover,
-.nav-list:focus {
-  color: var(--blue-text-color);
-} */
+
 .header-link {
   font-family: 'Roboto';
   font-weight: 500;
@@ -116,22 +97,12 @@
   color: var(--blue-text-color);
 }
 
-/* .header-link:active {
-  color: #2196f3;
-} */
-/* .header-link:visited {
-  color: #2196f3;
-} */
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
 }
-/* .tel {
-} */
-/* .mailto {
-} */
 
 .contacts {
   font-family: 'Roboto';
@@ -145,8 +116,7 @@
 .contacts:focus {
   color: #2196f3;
 }
-/* .text-email-header{
-} */
+
 /* ФУТЕР ПОРТФОЛИО И СТУДИЯ */
 .text-email {
   color: rgba(255, 255, 255, 0.6);
