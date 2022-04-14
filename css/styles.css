@@ -5,11 +5,13 @@
   --blue-text-color: #2196f3;
 }
 
-.page-main {}
 
 .page-body {
   font-family: 'Roboto';
   color: var(--first-text-color);
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1170px;
 }
 
 .page-header {
@@ -39,8 +41,18 @@
 }
 
 /* site-navigation */
-.site-nav {}
+.site-nav {
 
+}
+/* .nav {
+  display: inline-block;
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  margin-left: 453px;
+  top: 32px;
+  box-sizing: border-box;
+} */
 .header-list {
 }
 .header-list {
@@ -117,6 +129,7 @@
   color: #2196f3;
 }
 
+.page-main {}
 /* ФУТЕР ПОРТФОЛИО И СТУДИЯ */
 .text-email {
   color: rgba(255, 255, 255, 0.6);
@@ -134,10 +147,16 @@
 }
 
 .cap {
+  text-align: center;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #2F303A;
 }
 
 .title {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
@@ -149,6 +168,8 @@
 }
 
 .buttons {
+  border-radius: 4px;
+  padding: 10px 32px;
   background-color: var(--blue-text-color);
   font-family: 'Roboto';
   font-weight: 700;
@@ -159,6 +180,7 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border: 1px solid transparent
 }
 
 .buttons:hover,
@@ -166,10 +188,17 @@
   background-color: #ffffff;
   color: #212121;
 }
-
+/* .container {
+} */
+.container-specifics {
+  margin-top: 0;
+margin-bottom: 94px;
+}
 .general-list{
 }
 .specifics-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -190,6 +219,7 @@
 .workers {}
 
 .work-title {
+  margin-top: 94px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
