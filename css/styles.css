@@ -5,7 +5,11 @@
   --blue-text-color: #2196f3;
 }
 
-
+.container-body {
+    width: 1600px;
+    background-color: #FFFFFF;
+    outline: 2px solid tomato;
+}
 .page-body {
   font-family: 'Roboto';
   color: var(--first-text-color);
@@ -13,7 +17,11 @@
   padding-right: 15px;
   width: 1170px;
 }
-
+.header-container {
+  width: 1600px;
+  background-color: #FFFFFF;
+  outline: 2px solid tomato;
+}
 .page-header {
   font-style: normal;
   background-color: var(--white-text-color);
@@ -145,19 +153,22 @@
 .text-telephone:focus{
   color: #2196f3;
 }
-
+.container-title {
+width: 1600px;
+background-color: #2F303A;
+}
 .cap {
-  text-align: center;
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #2F303A;
+
+    outline: 2px solid tomato;
 }
 
 .title {
-  margin-top: 0;
+    width: 696px;
+    margin-left: 452px;
+    margin-right: 452px;
+  /* margin-top: 0;
   margin-bottom: 30px;
-  font-family: 'Roboto';
+  font-family: 'Roboto'; */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -165,8 +176,15 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-color);
+  outline: 2px solid tomato;
 }
-
+.buttons-container {
+  min-width: auto;
+  margin-left: 700px;
+  margin-right: 700px;
+  min-height: 50px;
+  left: 700px;
+}
 .buttons {
   border-radius: 4px;
   padding: 10px 32px;
@@ -188,18 +206,24 @@
   background-color: #ffffff;
   color: #212121;
 }
-/* .container {
-} */
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
 .container-specifics {
-  margin-top: 0;
-margin-bottom: 94px;
-box-sizing: border-box;
+margin-left: auto;
+margin-right: auto;
+width: 1170px;
+outline: 2px solid tomato;
+/* box-sizing: border-box; */
 }
 .general-list{
 }
 .specifics-title {
-  margin-top: 0px;
-  margin-bottom: 10px;
+  /* margin-top: 0px;
+  margin-bottom: 10px; */
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -213,6 +237,12 @@ box-sizing: border-box;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+.container-command {
+  width: 1600px;
+  background: #F5F4FA;
+  outline: 2px solid tomato;
+
 }
 
 .work-list {}
@@ -266,6 +296,11 @@ box-sizing: border-box;
 .filters:hover {
   background-color: #2196f3;
   color: #ffffff;
+}
+.container-footer {
+  width: 1600px;
+  background-color: #2F303A;
+  outline: 2px solid tomato;
 }
 .page-footer {
   background-color: rgb(15, 18, 56);
