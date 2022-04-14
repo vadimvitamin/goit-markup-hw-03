@@ -193,6 +193,7 @@
 .container-specifics {
   margin-top: 0;
 margin-bottom: 94px;
+box-sizing: border-box;
 }
 .general-list{
 }
