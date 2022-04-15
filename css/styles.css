@@ -23,12 +23,15 @@
   outline: 2px solid tomato;
 }
 .page-header {
+  display: flex;
+  align-items: center;
   font-style: normal;
   background-color: var(--white-text-color);
 }
 
 /* WebStudio */
 .logo {
+  margin-left: 215px;
   font-family: 'raleway';
   font-weight: 700;
   font-size: 26px;
@@ -52,15 +55,27 @@
 .site-nav {
 display: flex;
 }
-.nav {
+.nav {display: block;
+  margin-left: 93px;
   display: flex;
 }
 .nav .item {
   margin-right: 50px;
   display: block;
 }
-.nav .item:last-child {
+/* .nav .item:last-child {
   margin-right:0;
+} */
+.item {
+
+}
+.nav .item + .item {
+  margin-left: 50px;
+}
+.list {
+  /* padding: 0;
+  margin: 0; */
+  list-style: none;
 }
 .header-list {
 }
@@ -84,6 +99,7 @@ display: flex;
 }
 
 .email-header {
+  margin-right: 50px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -100,6 +116,7 @@ display: flex;
 }
 
 .tel-header {
+  margin-right: 215px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -121,9 +138,7 @@ display: flex;
 .link {
   text-decoration: none;
 }
-.list {
-  list-style: none;
-}
+
 
 .contacts {
   display: flex;
@@ -139,10 +154,16 @@ display: flex;
   color: #2196f3;
 }
 .contact-link {
-  display: flex;
+}
+.item-contacts {
+  margin-right: 50px;
 }
 .contacts .item + .item {
   margin-left: 50px;
+}
+
+.item-contacts { 
+
 }
 .page-main {}
 /* ФУТЕР ПОРТФОЛИО И СТУДИЯ */
@@ -165,14 +186,14 @@ width: 1600px;
 background-color: #2F303A;
 }
 .cap {
-
+  /* width: 1170px; */
     outline: 2px solid tomato;
 }
 
 .title {
     width: 696px;
     margin-left: 452px;
-    margin-right: 452px;
+    /* margin-right: 452px; */
   /* margin-top: 0;
   margin-bottom: 30px;
   font-family: 'Roboto'; */
@@ -214,19 +235,23 @@ background-color: #2F303A;
   color: #212121;
 }
 .container {
-  width: 1170px;
+  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid tomato;
 }
 .container-specifics {
-margin-left: auto;
-margin-right: auto;
-width: 1170px;
+/* margin-left: auto;
+margin-right: auto; */
+width: 1600px;
 outline: 2px solid tomato;
 /* box-sizing: border-box; */
 }
 .general-list{
+  width: 1170px;
+  margin-left: 215px;
+  display: flex;
+  outline: 2px solid tomato;
 }
 .specifics-title {
   /* margin-top: 0px;
@@ -252,9 +277,14 @@ outline: 2px solid tomato;
 
 }
 
-.work-list {}
+.work-list {
+  display: flex;
+margin-left: 215px;
+}
 
-.workers {}
+.workers {
+  margin-left: 215px;
+  display: flex;}
 
 .work-title {
   margin-top: 94px;
@@ -327,6 +357,7 @@ color: #2196f3;
 }
 
 .text-address {
+  margin-left: 215px;
   font-style: normal;
   color: var(--white-text-color);
 }
