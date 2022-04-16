@@ -332,11 +332,11 @@
 } */
   /* Встановить стилі нижньої рамки */
 
-/* .page-header-portfolio {
+.page-header-portfolio {
   border-bottom-width: 2px;
   border-bottom-style: groove;
   border-bottom-color: #ECECEC
-} */
+}
 
 /* .content-header {
   margin-left: 215px;
