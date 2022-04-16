@@ -34,7 +34,9 @@
 }
 
 /* site-navigation */
-.site-nav {}
+.site-nav {
+
+}
 
 .header-link {
   font-family: 'Roboto';
@@ -171,6 +173,10 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  padding: 10px 32px;
+  width: 200px;
+  height: 50px;
 }
 
 .buttons:hover,
@@ -290,24 +296,109 @@
   color: rgba(255, 255, 255, 0.6)
 }
 
-/* Home Work 03  */
+/* Home Work 03  написав окремо щоб не бігати вверх*/
+.page-body {
+  width: 1600px;
+}
+.page-header {
+  width: 1200px;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-
+  margin-left: 215px;
+  border: 1px solid coral;
 }
 .nav {
-
 }
+.site-nav {
+  display: flex;
+}
+.logo {}
+.nav-list {
+  display: flex;
+}
+.contacts { 
+  display: flex;
+}
+.page-header .container {
+  display: flex;
+}
+
 .section {
+  margin-left: 215px;
+  width: 1200px;
   padding-bottom: 94px;
+}
+.hero {
+  width: 1600px;
+}
+.cap {
 }
 .section-hero {
 }
 .hero-title {
   width: 696px;
-  height: 120px;
   margin-bottom: 30px;
   text-align: center;
+  display: flex;
+  margin-left: 452px;
+}
+.title {
+}
+.buttons {
+  margin-left: 700px;
+}
+.general {
+  display: flex;
+}
+.general-list{
+}
+.general-specifics {
+  display: flex;
+}
+.work-list {
+  display: flex;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.work-list:nth-last-child(n3) {
+  margin-right: 0px;
+}
+.progects {
+  margin-right: 30px;
+}
+.workers {
+  display: flex;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+.worker-container {
+width: 1600px;
+}
+.element {
+  width: 270px;
+  margin-left: 30px;
+}
+.element:nth-last-child(4n) {
+margin-left: 0;
+}
+
+.page-footer {
+  width: 1600px;
+}
+.footer-container {
+  width: 1200px;
+}
+.logo { 
+  margin-left: 215px;
+}
+.text-address {
+  margin-left: 215px;
 }
