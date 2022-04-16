@@ -148,6 +148,8 @@
 }
 
 .cap {
+  width: 1600px;
+  height: 600px;
   background-color: #2F303A;
 }
 
@@ -175,7 +177,7 @@
   letter-spacing: 0.06em;
   border-radius: 4px;
   padding: 10px 32px;
-  width: 200px;
+  min-width: 200px;
   height: 50px;
 }
 
@@ -329,7 +331,6 @@
 .section {
   margin-left: 215px;
   width: 1200px;
-  padding-bottom: 94px;
 }
 .hero {
   width: 1600px;
@@ -367,6 +368,14 @@
 .work-list:nth-last-child(n3) {
   margin-right: 0px;
 }
+.section {
+  padding-top: 94px;
+}
+
+}
+.progect-list {
+  padding-top: 94px;
+}
 .progects {
   margin-right: 30px;
 }
@@ -381,6 +390,8 @@
 }
 .worker-container {
 width: 1600px;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .element {
   width: 270px;
