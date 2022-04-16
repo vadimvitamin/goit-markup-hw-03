@@ -320,51 +320,52 @@
 }
 
 /* Home Work 03  написав окремо щоб не бігати вверх*/
-.page-body {
+/* .page-body {
   width: 1600px;
-}
+} */
 
-.page-header {
-  /* margin-left: 215px; */
+/* .page-header {
   width: 1230px;
   height: 80px;
   border: 1px solid chartreuse
-}
+} */
   /* Встановить стилі нижньої рамки */
-  /* border-bottom-width: 7px;
-  border-bottom-style: dashed;
-  border-bottom-color: palevioletred; */
-.page-header-portfolio {
+
+/* .page-header-portfolio {
   border-bottom-width: 2px;
   border-bottom-style: groove;
   border-bottom-color: #ECECEC
-}
+} */
+
 /* .content-header {
   margin-left: 215px;
   width: 1200px;
   border: 1px solid red
 } */
-.container {
+/* .container {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: 215px;
   display: flex;
-}
-.nav {
-}
-.header-link{
-}
+} */
+
+/* .nav {
+} */
+
+/* .header-link{
+} */
+
 .site-nav {
   align-self: center;
   display: flex;
   justify-content: flex-start;
 }
-.logo {
+/* .logo {
   justify-content: flex-start;
   align-self: center;
   display: flex;
-}
+} */
 .logo {
   padding-top: 24px;
  margin-right: 93px;
@@ -372,39 +373,39 @@
 .nav-list {
   padding-top: 32px;
   display: flex;
-  /* align-self: center; */
 }
 
-.nav-list{}
+/* .nav-list{} */
 
 .navigation:not(:last-child) {
   margin-right: 50px;
 }
-.navigation{
+/* .navigation{
   align-self: center;
-}
-
-.contacts { 
+} */
+     /* ПРОБЛЕМА УСТАНОВИТЬ КОНТАКТИ ПРАВИЛЬНО */
+/* .contacts { 
   margin-left: 0px;
   display: flex;
   justify-content: flex-end;
-  margin-right: 15px;
-}
-.header-conection {
-}
-.conection {
+} */
+
+/* .header-conection {
+} */
+/* .conection {
   justify-content: flex-end;
-}
-.conection {
+} */
+/* .conection {
   margin-right: 50px;
-}
-.email-header {
+} */
+/* .email-header {
   padding-top: 32px;
-  padding-left: 0;
+  padding-left: 0; */
 }
-.tel-header {
+/* .tel-header {
+  margin-right: 215px;
   padding-top: 32px;
-}
+} */
 
 .section {
   margin-left: 215px;
