@@ -21,7 +21,7 @@
   font-family: 'Roboto';
  justify-content: center;
   color: var(--first-text-color);
-  border: 1px solid crimson
+  /* border: 1px solid crimson */
 }
 .page-header {
   position: absolute;
@@ -30,7 +30,7 @@
   left: 0px;
   top: 0px;
   background-color: var(--white-text-color);
-  border: 1px solid rgb(220, 77, 20)
+  /* border: 1px solid rgb(220, 77, 20) */
 }
 
 .container {
@@ -40,7 +40,7 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  border: 1px solid rgb(236, 6, 56)
+  /* border: 1px solid rgb(236, 6, 56) */
 }
 
 .site-nav {
@@ -463,16 +463,29 @@
 
 
 /* ПОРТФОЛІО */
+.btn-header {
+opacity: 0;
+}
 .container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+ justify-content: center;
 }
-.card { margin-top: 94px;}
-.filters-container {width: 611px;}
+.card { 
+  justify-content: center;
+  /* width: 1170px; */
+  margin-top: 94px;}
 .filters-container {
- flex-basis: calc(100% / 5 -8px);
+  text-align: center;
+}
+.filters-container {
+
 }
 .filters-button {
 }
 .filters-button {
+  justify-content: center;
  margin-bottom: 50px;
  display: flex;
 }
@@ -503,45 +516,39 @@
   left: 0px;
   top: 0px
 }
-.rza {
+.list-filter {
   width: 1170px;
   /* padding-left: 15px; */
   /* padding-right: 15px; */
-  margin-left: -15px;
+  margin-left: 0px;
   /* margin-right: auto; */
-  border: 1px solid rgb(7, 248, 79)
+  /* border: 1px solid rgb(7, 248, 79) */
 }
 .specifics-progects {
-  /* width: 1170px;
-  margin-left: 30px;
-  margin-top: 30px;
+  /* outline: 1px solid rgb(115, 13, 231); */
+  width: 1200px;
+  margin-left: -30px;
+  margin-top: -30px;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  list-style: none; */
+  list-style: none;
 }
 .specifics-progects > .progect-margin {
-  /* margin-left: -15px;
-  margin-top: -15px; */
+  flex-basis: calc(100% / 3 -30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .specifics-progects {
-  /* flex-basis: calc(100% / 3 - 30px); */
+margin-left: -30px;
 }
-
 .progect-margin {
-  /* flex-basis: calc(100% / 3 -30px);
-  margin-right: 30px; */
 }
-
 /* .specifics-progects:nth-child(n3) {
   margin-right: 0px;
 } */
-
 .progect-margin {
-  /* margin-right: 30px;
-  margin-top: 30px; */
 }
-
 /* .progect-margin:nth-child(n3) {
   margin-right: 0; */
