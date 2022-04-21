@@ -19,13 +19,14 @@
 
 <body class="page-body">
     <!--ВЕРХНЯЯ ЛИНИЯ-->
-    <header class="page-header container line">
-        <div class="container">
+<header class="page-header line">
+    <div class="container">
+        <div class="div-logo-header">
             <a href="WebStudio" class="logo link"><span class="bluetext">Web</span><span
                         class="blacktext">Studio</span></a>
         </div>
 
-        <div>
+        <div class="div-nav">
             <nav class="site-nav">
             <ul class="nav-list list">
                 <li class="navigation"><a href="./index.html" class="header-link link current">Студия</a></li>
@@ -34,13 +35,14 @@
             </ul>
             </nav>
         </div>
+    
             
         <ul class="contacts list">
             <li class="conection"><a href="mailto:info@devstudio.com" class="email-header link">info@devstudio.com</a>
             </li>
             <li class="conection"><a href="tel:+380961111111" class="tel-header link">+38 096 111 11 11</a></li>
         </ul>
-
+    </div>
     </header>
     <main class="page-main">
         <!--ШАПКА-->
@@ -55,6 +57,7 @@
         </div>
         <!--ОСОБЕННОСТИ-->
 
+    <div class="container">
         <section class="section">
             <ul class="general-list list">
                 <li class="general">
@@ -79,55 +82,62 @@
                 </li>
             </ul>
         </section>
+    </div>
 
         <!--ЧЕМ МЫ ЗАНИМАЕМСЯ-->
 
-        <section class="progect-list">
-            <div class="section">
-                <h2 class="work-title">Чем мы занимаемся</h2>
-                <ul class="work-list list">
-                    <li class="progects"><img src="./images/image1.png" width="370" height="294" alt="печатаем"></li>
-                    <li class="progects"><img src="./images/image2.png" width="370" height="294" alt="держим телефон"></li>
-                    <li class="progects"><img src="./images/image3.png" width="370" height="294" alt="держим планшет">
-                    </li>
-                </ul>
-            </div>
-        </section>
+<div class="container">
+    <section class="progect-list">
+        <div class="section">
+            <h2 class="work-title">Чем мы занимаемся</h2>
+            <ul class="work-list list">
+                <li class="progects"><img src="./images/image1.png" width="370" height="294" alt="печатаем"></li>
+                <li class="progects"><img src="./images/image2.png" width="370" height="294" alt="держим телефон"></li>
+                <li class="progects"><img src="./images/image3.png" width="370" height="294" alt="держим планшет">
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
 
         <!--НАША КОМАНДА-->
-        <section>
-            <div class="worker-container">
-                <h2 class="work-title list">Наша команда</h2>
-                <ul class="workers list">
-                    <li class="element">
-                        <img src="./images/product_designer.jpg" width="270" height="260" alt="product designer">
-                        <h2 class="specifics-title-team">Игорь Демьяненко</h2>
-                        <p class="specifics-team">Product Designer</p>
-                    </li>
-                    <li class="element">
-                        <img src="./images/Frontend_Developer.jpg" width="270" height="260" alt="Frontend Developer">
-                        <h2 class="specifics-title-team">Ольга Репина</h2>
-                        <p class="specifics-team">Frontend Developer</p>
-                    </li>
-                    <li class="element">
-                        <img src="./images/Marketing.jpg" width="270" height="260" alt="Marketing">
-                        <h2 class="specifics-title-team">Николай Тарасов</h2>
-                        <p class="specifics-team">Marketing</p>
-                    </li>
-                    <li class="element">
-                        <img src="./images/UI_Designer.jpg" width="270" height="260" alt="UI Designer">
-                        <h2 class="specifics-title-team">Михаил Ермаков</h2>
-                        <p class="specifics-team">UI Designer</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
+<div class="worker-container">
+    <section>
+        <div class="container">
+            <h2 class="work-title list">Наша команда</h2>
+            <ul class="workers list">
+                <li class="element">
+                    <img src="./images/product_designer.jpg" width="270" height="260" alt="product designer">
+                    <h2 class="specifics-title-team">Игорь Демьяненко</h2>
+                    <p class="specifics-team">Product Designer</p>
+                </li>
+                <li class="element">
+                    <img src="./images/Frontend_Developer.jpg" width="270" height="260" alt="Frontend Developer">
+                    <h2 class="specifics-title-team">Ольга Репина</h2>
+                    <p class="specifics-team">Frontend Developer</p>
+                </li>
+                <li class="element">
+                    <img src="./images/Marketing.jpg" width="270" height="260" alt="Marketing">
+                    <h2 class="specifics-title-team">Николай Тарасов</h2>
+                    <p class="specifics-team">Marketing</p>
+                </li>
+                <li class="element">
+                    <img src="./images/UI_Designer.jpg" width="270" height="260" alt="UI Designer">
+                    <h2 class="specifics-title-team">Михаил Ермаков</h2>
+                    <p class="specifics-team">UI Designer</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
 
     </main>
     <!--ПОДВАЛ-->
     <footer class="page-footer">
-        <div class="footer-container">
+        <div class="container">
+          <div class="div-logo">
             <a href="WebStudio" class="logo-footer"><span class="bluetext">Web</span><span class="whitetext">Studio</span></a>
+          </div>
             <address class="text-address" id="contacts">
                 <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
                 <a class="text-email" href="mailto:info@example.com">info@example.com</a> <br />
