@@ -16,50 +16,49 @@
 /* HEADER FOR INDEX AND PORTFOLIO */
 
 .page-body {
-  /* width: 1600px; */
   background-color: var(--white-text-color);
   font-family: 'Roboto';
- justify-content: center;
+ /* justify-content: center; */
   color: var(--first-text-color);
   /* border: 1px solid crimson */
 }
 .page-header {
-  /* position: absolute; */
-  /* width: 1600px; */
-  /* height: 80px;
-  left: 0px;
-  top: 0px; */
+  height: 80px;
+  /* top: 0px; */
   background-color: var(--white-text-color);
   /* border: 1px solid rgb(220, 77, 20) */
 }
 
 .container {
   width: 1200px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* display: flex; */
   /* border: 1px solid rgb(236, 6, 56) */
 }
 
 .site-nav {
-  align-self: center;
+  /* align-self: center; */
+  /* padding-left: 238px; */
+  align-items: center;
   display: flex;
+
   /* justify-content: flex-start; */
 }
 .div-nav {
+  /* padding-left: 93px; */
   display: flex;
-
 }
- .div-logo-header {
+ /* .div-logo-header {
    margin-top: 24px;
    margin-top: 25px;
- }
+ } */
 .logo {
   /* justify-content: flex-start; */
-  align-self: center;
+  /* align-self: center; */
   display: flex;
+  align-items: center;
 }
 
 /* WebStudio */
@@ -100,15 +99,11 @@
   list-style: none;
 }
 .nav-list {
-  /* padding-top: 32px; */
+  margin-left: 93px;
   display: flex;
-  /* position: absolute;
-  width: 294px;
-  height: 16px;
-  left: 453px; */
 }
 .nav-list {
-  align-self: center;
+  /* align-self: center; */
 }
 .navigation:not(:last-child) {
   margin-right: 50px;
@@ -131,34 +126,34 @@
 .header-link.current {
   color: var(--blue-text-color);
 }
+.div-contacts {
 
+}
 .contacts {
+  display: flex;
+  justify-content: flex-end;
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  /* margin-left: 0px; */
-  display: flex;
-  justify-content: flex-end;
   color: var(--secondary-text-color);
 }
 .contacts:hover,
 .contacts:focus {
   color: #2196f3;
 }
-.conection {
-  /* justify-content: flex-end; */
+
+.contacts .conection + .conection {
+  margin-left: 50px;
 }
-
+/* .conection:not(:last-child) {
+margin-right: 50px;
+} */
+.conection {
+  align-items: center;
+}
 .email-header {
-  /* padding-top: 32px;
-  padding-right: 50px;
-
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px; */
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -174,14 +169,7 @@
 }
 
 .tel-header {
-  /* margin-right: 0px;
-  padding-top: 32px; */
-
   font-family: 'Roboto';
-  /* position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px; */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -198,16 +186,11 @@
 }
 
 .line {
-  /* position: absolute;
-  width: 1600px;
-  height: 0px;
-  left: 0px;
-  top: 80px; */
-  border: 1px solid #ECECEC;
+  top: 80px;
+  border-bottom: 1px solid #ECECEC;;
 }
 
 .page-main {
-
 }
 
 .hero {
