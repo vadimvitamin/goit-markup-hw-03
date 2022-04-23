@@ -423,7 +423,8 @@ margin-right: 50px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin: 0;
-  padding-top: 0;
+  /* padding-top: 0; */
+  padding-bottom: 9px;
   color: #FFFFFF;
 }
 
@@ -440,10 +441,6 @@ margin-right: 50px;
   text-decoration: none;
   padding-bottom: 9px;
   color: rgba(255, 255, 255, 0.6)
-}
-
-.text-email {
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .text-email:hover,
@@ -464,7 +461,6 @@ margin-right: 50px;
 .text-telephone:focus {
   color: #2196f3;
 }
-
 
 /* ПОРТФОЛІО */
 /* .btn-header {
@@ -490,9 +486,8 @@ opacity: 0;
   margin-top: 94px;
 }
 
-
 .filters-container {
-  text-align: center;
+  /* text-align: center; */
   /* margin-left: 8px; */
 }
 
@@ -515,7 +510,8 @@ opacity: 0;
 }
 
 .filters {
-  background-color: #ffffff var(--first-text-color)
+  background: #F5F4FA;
+  border: 1px solid transparent;
 }
 
 .filters:hover {
@@ -524,30 +520,35 @@ opacity: 0;
 }
 
 .btn-one {
-  text-align: center;
   width: 73px;
   height: 38px;
 }
 
 .btn-two {
+  margin-left: 8px;
   min-width: 128px;
   height: 38px;
 }
 
 .btn-three {
+  margin-left: 8px;
   width: 145px;
   height: 38px;
 }
 
 .btn-four {
+  margin-left: 8px;
   width: 103px;
   height: 38px;
 }
 
 .btn-five {
+  margin-left: 8px;
   width: 130px;
   height: 38px;
 }
+
+
 .list-filter {
   /* padding-left: 15px; */
   /* padding-right: 15px; */
@@ -562,6 +563,8 @@ opacity: 0;
 }
 
 .specifics-progects {
+  /* outline: 1px solid rgb(115, 13, 231); */
+
   margin-left: -30px;
   margin-top: -30px;
   display: flex;
