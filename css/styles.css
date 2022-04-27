@@ -191,7 +191,7 @@ margin-right: 50px;
 } */
 .hero {
   background: #2F303A;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
   padding-bottom: 200px;
   padding-top: 200px;
 }
@@ -241,7 +241,9 @@ margin-right: 50px;
 }
 
 /* ОСОБЕННОСТИ INDEX*/
-
+.qwe {
+  padding-top: 94px;
+}
 .section {
   margin-left: auto;
   margin-right: auto;
