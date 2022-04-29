@@ -138,9 +138,6 @@ header>.container {
   margin-left: 50px;
 }
 
-/* .conection:not(:last-child) {
-margin-right: 50px;
-} */
 .conection {
   align-items: center;
 }
@@ -187,12 +184,8 @@ margin-right: 50px;
 
 .page-main {}
 
-/* .cap { 
-  padding-bottom: 94px;
-} */
 .hero {
   background: #2F303A;
-  /* margin-bottom: 94px; */
   padding-bottom: 200px;
   padding-top: 200px;
 }
@@ -212,7 +205,6 @@ margin-right: 50px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 30px;
-  /* padding-top: 200px; перевів падінг на секцію Hero*/
   color: var(--white-text-color);
 }
 
@@ -228,7 +220,6 @@ margin-right: 50px;
   text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  /* padding: 10px 32px; */
   min-width: 200px;
   height: 50px;
   display: block;
@@ -253,7 +244,6 @@ margin-right: 50px;
 
 
 .general-list-box {
-  /* padding-bottom: 94px; */
 }
 
 /* .general-list: calc(100 / 4) */
@@ -316,9 +306,6 @@ margin-right: 50px;
   padding-right: -15px;
 }
 
-/* .work-list:nth-last-child(n3) {
-  margin-right: 0px;
-} */
 .progects {
   flex-basis: calc(100% / 3 -30px);
   margin-right: 30px;
@@ -416,7 +403,6 @@ margin-right: 50px;
 
 .text-address {
   font-style: normal;
-  /* padding-bottom: 9px; */
   color: var(--white-text-color);
 }
 
@@ -432,11 +418,6 @@ margin-right: 50px;
   /* padding-bottom: 9px; */
   color: #FFFFFF;
 }
-
-/* .address:hover,
-.address:focus {
-  color: #2196f3;
-} */
 
 .text-email {
   font-weight: 400;
@@ -502,8 +483,6 @@ opacity: 0;
 }
 
 .filters-container {
-  /* text-align: center; */
-  /* margin-left: 8px; */
 }
 
 .filters-button {
@@ -565,15 +544,9 @@ opacity: 0;
 
 
 .list-filter {
-  /* padding-left: -15px;
-  padding-right: -15px; */
-  /* margin-left: 0px; */
-  /* margin-right: auto; */
-  /* border: 1px solid rgb(7, 248, 79) */
 }
 
 .specifics-progects {
-/* outline: 1px solid rgb(115, 13, 231); */
   margin-left: -30px;
  margin-top: -30px;
   display: flex;
@@ -583,21 +556,13 @@ opacity: 0;
   list-style: none;
 }
 
-/* .specifics-progects >  */
 .item {
   flex-basis: calc(100% / 3 -30px);
   margin-left: 30px;
   margin-top: 30px;
-  
+
 }
-
-/* .item:not(:last-child) {
-  margin-right: 30px;
-} */
 .cards {
-
-  /* border: 1px solid #EEEEEE; */
-  /* box-shadow: #EEEEEE */
 }
 
 .cards-border {
