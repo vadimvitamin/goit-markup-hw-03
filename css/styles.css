@@ -7,7 +7,8 @@
 
 /* ОБНУЛЯЄМО СТИЛІ */
 .h1,
-.h2 .h3,
+.h2,
+.h3,
 .h4,
 .h5,
 .h6,
@@ -564,34 +565,37 @@ opacity: 0;
 
 
 .list-filter {
-  /* padding-left: 15px; */
-  /* padding-right: 15px; */
+  /* padding-left: -15px;
+  padding-right: -15px; */
   /* margin-left: 0px; */
   /* margin-right: auto; */
   /* border: 1px solid rgb(7, 248, 79) */
 }
 
 .specifics-progects {
-  /* outline: 1px solid rgb(115, 13, 231); */
-
+outline: 1px solid rgb(115, 13, 231);
   margin-left: -30px;
-  margin-top: -30px;
+ margin-top: -30px;
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
-  /* margin: 0; */
+  padding: 0; 
+  margin: 0;
   list-style: none;
 }
 
-.specifics-progects>.item {
+/* .specifics-progects >  */
+.item {
   flex-basis: calc(100% / 3 -30px);
   margin-left: 30px;
   margin-top: 30px;
+  
 }
 
-.item {}
-
+/* .item:not(:last-child) {
+  margin-right: 30px;
+} */
 .cards {
+
   border: 1px solid #EEEEEE;
   /* box-shadow: #EEEEEE */
 }
