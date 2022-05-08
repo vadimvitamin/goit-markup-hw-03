@@ -446,7 +446,7 @@ header>.container {
 }
 
 .text-telephone {
-  /* display: block; */
+  display: block;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
